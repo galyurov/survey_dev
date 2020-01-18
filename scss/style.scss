@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: pink;
+    align-items: center;
+}
+
+.login {
+    display: flex;
+}
+.person, .exit ,.box {
+    height: 30px;
+    display: flex;
+    margin: 0 15px 0 15px;
+    align-items: center;
+}
+.login, .menu  {
+    :hover {
+        color: red;
+    }
+}
+.svg {
+    height: 100%;
+    margin: 8px;
+}
